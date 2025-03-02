@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J8aieEB6LiI=",
+  "dgSpecHash": "Q/8o8DOaTwM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\elenp\\Documents\\GitHub\\e-Commerce-Grocery\\FruitVegBasket\\FruitVegBasket\\FruitVegBasket.csproj",
+  "projectFilePath": "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket\\FruitVegBasket.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elenp\\.nuget\\packages\\communitytoolkit.maui\\9.0.0\\communitytoolkit.maui.9.0.0.nupkg.sha512",
     "C:\\Users\\elenp\\.nuget\\packages\\communitytoolkit.maui.core\\9.0.0\\communitytoolkit.maui.core.9.0.0.nupkg.sha512",

@@ -28356,11 +28356,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elenp\\Documents\\GitHub\\e-Commerce-Grocery\\FruitVegBasket\\FruitVegBasket\\FruitVegBasket.csproj",
+      "projectUniqueName": "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket\\FruitVegBasket.csproj",
       "projectName": "FruitVegBasket",
-      "projectPath": "C:\\Users\\elenp\\Documents\\GitHub\\e-Commerce-Grocery\\FruitVegBasket\\FruitVegBasket\\FruitVegBasket.csproj",
+      "projectPath": "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket\\FruitVegBasket.csproj",
       "packagesPath": "C:\\Users\\elenp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elenp\\Documents\\GitHub\\e-Commerce-Grocery\\FruitVegBasket\\FruitVegBasket\\obj\\",
+      "outputPath": "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
