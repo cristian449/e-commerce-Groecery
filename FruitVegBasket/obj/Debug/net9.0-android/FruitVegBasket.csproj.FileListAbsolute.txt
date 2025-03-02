@@ -1544,9 +1544,6 @@ C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\bin\Debug\net9.0-andro
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\bin\Debug\net9.0-android\com.companyname.fruitvegbasket-Signed.aab
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\bin\Debug\net9.0-android\com.companyname.fruitvegbasket-Signed.apk
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\bin\Debug\net9.0-android\com.companyname.fruitvegbasket-Signed.apk.idsig
-C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\bin\Debug\net9.0-android\Microsoft.Maui.Controls.HotReload.Forms.dll
-C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\bin\Debug\net9.0-android\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\bin\Debug\net9.0-android\Microsoft.VisualStudio.DesignTools.TapContract.dll
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\build.props
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\adb.props
@@ -1746,7 +1743,6 @@ C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-andro
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Extensions.Primitives.dll
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Maui.Controls.Compatibility.dll
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Maui.Controls.dll
-C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Maui.Controls.HotReload.Forms.dll
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Maui.Controls.pdb
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Maui.Controls.Xaml.dll
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Maui.Controls.Xaml.pdb
@@ -1758,8 +1754,6 @@ C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-andro
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Maui.pdb
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualBasic.Core.dll
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualBasic.dll
-C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualStudio.DesignTools.TapContract.dll
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Win32.Primitives.dll
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Win32.Registry.dll
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\Mono.Android.dll
@@ -2657,3 +2651,7 @@ C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-andro
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\bin\Debug\net9.0-android\FruitVegBasket.Shared.dll
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\bin\Debug\net9.0-android\FruitVegBasket.Shared.pdb
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\FruitVegBasket.Shared.dll
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket\obj\Debug\net9.0-android\android\assets\x86_64\FruitVegBasket.Shared.pdb

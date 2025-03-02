@@ -4,6 +4,80 @@
     "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket\\FruitVegBasket.csproj": {}
   },
   "projects": {
+    "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket.Shared\\FruitVegBasket.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket.Shared\\FruitVegBasket.Shared.csproj",
+        "projectName": "FruitVegBasket.Shared",
+        "projectPath": "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket.Shared\\FruitVegBasket.Shared.csproj",
+        "packagesPath": "C:\\Users\\elenp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\elenp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket\\FruitVegBasket.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -36,19 +110,35 @@
         "frameworks": {
           "net9.0-android35.0": {
             "targetAlias": "net9.0-android",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket.Shared\\FruitVegBasket.Shared.csproj": {
+                "projectPath": "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket.Shared\\FruitVegBasket.Shared.csproj"
+              }
+            }
           },
           "net9.0-ios18.1": {
             "targetAlias": "net9.0-ios",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket.Shared\\FruitVegBasket.Shared.csproj": {
+                "projectPath": "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket.Shared\\FruitVegBasket.Shared.csproj"
+              }
+            }
           },
           "net9.0-maccatalyst18.1": {
             "targetAlias": "net9.0-maccatalyst",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket.Shared\\FruitVegBasket.Shared.csproj": {
+                "projectPath": "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket.Shared\\FruitVegBasket.Shared.csproj"
+              }
+            }
           },
           "net9.0-windows10.0.19041": {
             "targetAlias": "net9.0-windows10.0.19041.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket.Shared\\FruitVegBasket.Shared.csproj": {
+                "projectPath": "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket.Shared\\FruitVegBasket.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -74,6 +164,12 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -122,6 +218,12 @@
               "target": "Package",
               "version": "[8.4.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -168,6 +270,12 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -216,6 +324,12 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",

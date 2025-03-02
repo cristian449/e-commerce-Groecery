@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "r3/Z7tXfPHMS4mwBfeNCLH5mkQwBC7YOKjS3GGJOlAw=",
+  "Source": "FruitVegBasket.Api",
+  "BasePath": "_content/FruitVegBasket.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

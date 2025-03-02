@@ -1,0 +1,14 @@
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\bin\Debug\net8.0\FruitVegBasket.Shared.deps.json
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\bin\Debug\net8.0\FruitVegBasket.Shared.runtimeconfig.json
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\bin\Debug\net8.0\FruitVegBasket.Shared.dll
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\bin\Debug\net8.0\FruitVegBasket.Shared.pdb
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\obj\Debug\net8.0\FruitVegBasket.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\obj\Debug\net8.0\FruitVegBasket.Shared.AssemblyInfoInputs.cache
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\obj\Debug\net8.0\FruitVegBasket.Shared.AssemblyInfo.cs
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\obj\Debug\net8.0\FruitVegBasket.Shared.csproj.CoreCompileInputs.cache
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\obj\Debug\net8.0\FruitVegBasket.Shared.sourcelink.json
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\obj\Debug\net8.0\FruitVegBasket.Shared.dll
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\obj\Debug\net8.0\refint\FruitVegBasket.Shared.dll
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\obj\Debug\net8.0\FruitVegBasket.Shared.pdb
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\obj\Debug\net8.0\FruitVegBasket.Shared.genruntimeconfig.cache
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\obj\Debug\net8.0\ref\FruitVegBasket.Shared.dll
