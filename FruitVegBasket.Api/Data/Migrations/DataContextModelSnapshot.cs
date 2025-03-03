@@ -84,6 +84,72 @@ namespace FruitVegBasket.Api.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Category");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = (short)1,
+                            Credit = "Photo By <a href=\"",
+                            Image = "apple.jpg",
+                            Name = "Apple",
+                            ParentId = (short)0
+                        },
+                        new
+                        {
+                            Id = (short)2,
+                            Credit = "Photo By <a href=\"",
+                            Image = "banana.jpg",
+                            Name = "Banana",
+                            ParentId = (short)0
+                        },
+                        new
+                        {
+                            Id = (short)3,
+                            Credit = "Photo By <a href=\"",
+                            Image = "carrot.jpg",
+                            Name = "Carrot",
+                            ParentId = (short)0
+                        },
+                        new
+                        {
+                            Id = (short)4,
+                            Credit = "Photo By <a href=\"",
+                            Image = "broccoli.jpg",
+                            Name = "Broccoli",
+                            ParentId = (short)0
+                        },
+                        new
+                        {
+                            Id = (short)5,
+                            Credit = "Photo By <a href=\"",
+                            Image = "milk.jpg",
+                            Name = "Milk",
+                            ParentId = (short)0
+                        },
+                        new
+                        {
+                            Id = (short)6,
+                            Credit = "Photo By <a href=\"",
+                            Image = "cheese.jpg",
+                            Name = "Cheese",
+                            ParentId = (short)0
+                        },
+                        new
+                        {
+                            Id = (short)7,
+                            Credit = "Photo By <a href=\"",
+                            Image = "eggs.jpg",
+                            Name = "Eggs",
+                            ParentId = (short)0
+                        },
+                        new
+                        {
+                            Id = (short)8,
+                            Credit = "Photo By <a href=\"",
+                            Image = "chicken.jpg",
+                            Name = "Chicken",
+                            ParentId = (short)0
+                        });
                 });
 
             modelBuilder.Entity("FruitVegBasket.Api.Data.Entities.Offer", b =>
@@ -116,6 +182,44 @@ namespace FruitVegBasket.Api.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Offer");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            BgColor = "#e1f1e7",
+                            Code = "Frt30",
+                            Description = "Enjoy upto 30% off on all fruits",
+                            Title = "Upto 30% off",
+                            isActive = false
+                        },
+                        new
+                        {
+                            Id = 2,
+                            BgColor = "#e1f1e7",
+                            Code = "VegB1G1",
+                            Description = "Buy one get one free on selected vegetables",
+                            Title = "Buy 1 Get 1 Free",
+                            isActive = false
+                        },
+                        new
+                        {
+                            Id = 3,
+                            BgColor = "#e28083",
+                            Code = "Dairy20",
+                            Description = "Get 20% off on all dairy products",
+                            Title = "20% off on Dairy",
+                            isActive = false
+                        },
+                        new
+                        {
+                            Id = 4,
+                            BgColor = "#e1f1e7",
+                            Code = "EggMeat10",
+                            Description = "Special discount on eggs and meat",
+                            Title = "Special Discount",
+                            isActive = false
+                        });
                 });
 
             modelBuilder.Entity("FruitVegBasket.Api.Data.Entities.Order", b =>

@@ -12,14 +12,19 @@ namespace FruitVegBasket.Api.Data.Entities
         [Key]
         public int Id { get; set; }
 
+        [Required]
         public string Name { get; set; }
 
+        [Required]
         public string Email { get; set; }
 
+        [Required]
         public string Mobile { get; set; }
 
         public short RoleId { get; set; }
         //We should not have plain password this is just for simplicity and demonstration purposes
+
+        [Required]
         public string Password { get; set; }
 
         public virtual Role Role { get; set; }

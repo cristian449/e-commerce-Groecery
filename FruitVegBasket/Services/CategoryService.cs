@@ -2,52 +2,82 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
+using FruitVegBasket.Constants;
 using FruitVegBasket.Models;
 
 namespace FruitVegBasket.Services
 {
+
+
     public class CategoryService
     {
+        
+
+        public CategoryService(IHttpClientFactory httpClientFactory)
+        {
+            _httpClientFactory = httpClientFactory;
+
+        }
+
+
         private IEnumerable<Category>? _categories;
+        private readonly IHttpClientFactory _httpClientFactory;
 
         public async ValueTask<IEnumerable<Category>> GetCategoriesAsync()
         {
-            if (_categories is not null)
-                return _categories;
-            {
+            if (_categories is null)
+            { 
 
-                var categories = new List<Category>();
+                var httpClient = _httpClientFactory.CreateClient(AppConstants.HttpClientName);
 
-                var fruits = new List<Category>
+                var response = await httpClient.GetAsync("/masters/categories");
+                if (response.IsSuccessStatusCode)
                 {
-                    new (1, "Apple", 0, "apple.jpg", "Photo By <a href=\""),
-                    new (2, "Banana", 0, "banana.jpg", "Photo By <a href=\""),
-                };
-                categories.AddRange(fruits);
+                    var content = await response.Content.ReadAsStringAsync();
+                    if (!string.IsNullOrWhiteSpace(content))
+                    {
 
-                var vegetables = new List<Category>
+                        _categories = JsonSerializer.Deserialize<IEnumerable<Category>>(content);
+                    }
+                }
+                else
                 {
-                    new (3, "Carrot", 0, "carrot.jpg", "Photo By <a href=\""),
-                    new (4, "Broccoli", 0, "broccoli.jpg", "Photo By <a href=\""),
-                };
-                categories.AddRange(vegetables);
+                    return Enumerable.Empty<Category>();
+                }
 
-                var dairy = new List<Category>
-                {
-                    new (5, "Milk", 0, "milk.jpg", "Photo By <a href=\""),
-                    new (6, "Cheese", 0, "cheese.jpg", "Photo By <a href=\""),
-                };
-                categories.AddRange(dairy);
+                //    var categories = new List<Category>();
 
-                var eggsmeat = new List<Category>
-                {
-                    new (7, "Eggs", 0, "eggs.jpg", "Photo By <a href=\""),
-                    new (8, "Chicken", 0, "chicken.jpg", "Photo By <a href=\""),
-                };
-                categories.AddRange(eggsmeat);
+                //    var fruits = new List<Category>
+                //    {
+                //        new (1, "Apple", 0, "apple.jpg", "Photo By <a href=\""),
+                //        new (2, "Banana", 0, "banana.jpg", "Photo By <a href=\""),
+                //    };
+                //    categories.AddRange(fruits);
 
-                _categories = categories;
+                //    var vegetables = new List<Category>
+                //    {
+                //        new (3, "Carrot", 0, "carrot.jpg", "Photo By <a href=\""),
+                //        new (4, "Broccoli", 0, "broccoli.jpg", "Photo By <a href=\""),
+                //    };
+                //    categories.AddRange(vegetables);
+
+                //    var dairy = new List<Category>
+                //    {
+                //        new (5, "Milk", 0, "milk.jpg", "Photo By <a href=\""),
+                //        new (6, "Cheese", 0, "cheese.jpg", "Photo By <a href=\""),
+                //    };
+                //    categories.AddRange(dairy);
+
+                //    var eggsmeat = new List<Category>
+                //    {
+                //        new (7, "Eggs", 0, "eggs.jpg", "Photo By <a href=\""),
+                //        new (8, "Chicken", 0, "chicken.jpg", "Photo By <a href=\""),
+                //    };
+                //    categories.AddRange(eggsmeat);
+
+                //    _categories = categories;
             }
 
 

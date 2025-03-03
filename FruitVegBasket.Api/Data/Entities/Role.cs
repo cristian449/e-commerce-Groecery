@@ -9,6 +9,8 @@ namespace FruitVegBasket.Api.Data.Entities
     {
         [Key]
         public short Id { get; set; }
+
+        [Required]
         public string Name { get; set; }
 
         internal static IEnumerable<Role> GetInitialRoles() =>
