@@ -74,7 +74,7 @@ namespace FruitVegBasket.ViewModels
             var product = PopularProducts.FirstOrDefault(p => p.Id == productId);
             if (product is not null)
             {
-                product.CartQuantit += count;
+                product.CartQuantity += count;
 
                 if (count == -1)
                 {

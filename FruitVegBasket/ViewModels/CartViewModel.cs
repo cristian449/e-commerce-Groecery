@@ -21,11 +21,7 @@ public partial class CartViewModel : ObservableObject
 
         //This might be a workaround however i am unsure if this is the correct way to do it, it says that mvvm is automatically
         //Supposed to implement Count as a property but it is not working for me
-        public int Count
-        {
-            get => _count;
-            set => SetProperty(ref _count, value);
-        }
+       
 
 
         //Had to change Everything from Private to Public as it otherwise did not work, maybe will look into it later

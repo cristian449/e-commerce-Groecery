@@ -20,7 +20,7 @@ public partial class CartControl : ContentView
     protected override void OnSizeAllocated(double width, double height)
     {
         base.OnSizeAllocated(width, height);
-        container.Scale = 0;
+        containerView.Scale = 0;
     }
 
     private async Task AnimateContainer(AnimationType animationType)
@@ -28,11 +28,11 @@ public partial class CartControl : ContentView
         switch (animationType)
         {
             case AnimationType.In:
-                await Task.WhenAll(container.ScaleTo(1.5), container.RotateTo(360));
+                await Task.WhenAll(containerView.ScaleTo(1.5), containerView.RotateTo(360));
                 await Pulse();
                 break;
             case AnimationType.Out:
-                await Task.WhenAll(container.ScaleTo(0), container.RotateTo(-360));
+                await Task.WhenAll(containerView.ScaleTo(0), containerView.RotateTo(-360));
                 break;
             default:
                 await Pulse();
@@ -41,11 +41,11 @@ public partial class CartControl : ContentView
 
         async Task Pulse()
         {
-            await container.ScaleTo(1, 180);
-            await container.ScaleTo(1.2, 180);
-            await container.ScaleTo(1, 180);
-            await container.ScaleTo(1.2, 180);
-            await container.ScaleTo(1, 180);
+            await containerView.ScaleTo(1, 180);
+            await containerView.ScaleTo(1.2, 180);
+            await containerView.ScaleTo(1, 180);
+            await containerView.ScaleTo(1.2, 180);
+            await containerView.ScaleTo(1, 180);
         }
     }
     enum AnimationType
@@ -84,5 +84,7 @@ public partial class CartControl : ContentView
     }
 
     // Add the missing container field
-    private View container;
+    private View containerView;
 }
+
+//This file happened to be the biggest pain and i was barely able to get it working because of some problem with the containers, but it works now after changing container to Containerview.
