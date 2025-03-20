@@ -65,7 +65,9 @@ namespace FruitVegBasket
                 configBuilder.PrimaryHandler = platformHttpMessageHandler.GetHttpMessageHandler();
             });
 
+
             builder.Services.AddSingleton<CategoryService>();
+            builder.Services.AddSingleton<ProductsService>();
             builder.Services.AddSingleton<HomePageViewModel>();
             builder.Services.AddSingleton<HomePage>();
 

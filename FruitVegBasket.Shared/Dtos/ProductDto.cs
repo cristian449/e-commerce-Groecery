@@ -25,7 +25,10 @@ namespace FruitVegBasket.Shared.Dtos
         public string Unit { get; set; }
 
         public short CategoryId { get; set; }
-        public string? Image { get => _image; set => _image = value; } //Might break it don't know, keep an eye on this
+        
+
+        [ObservableProperty]
+        private int _cartQuantity;
 
         public ProductDto(int id, string name, string image, decimal price, string unit, short categoryId)
         {

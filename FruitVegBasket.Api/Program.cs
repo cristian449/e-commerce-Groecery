@@ -1,5 +1,6 @@
 using FruitVegBasket.Api.Constants;
 using FruitVegBasket.Api.Data;
+using FruitVegBasket.Api.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -44,6 +45,21 @@ app.MapGet("/offers", async (DataContext context) =>
           .ToArrayAsync()
           
 );
+
+app.MapGet("/popular-products", async (DataContext context, int? count) =>
+{
+    if (!count.HasValue || count <= 0)
+        count = 6;
+
+    var randomProducts = await context.Products
+                            .AsNoTracking()
+                            .OrderBy(p => Guid.NewGuid())
+                            .Take(count.Value)
+                            .Select(Product.DtoSelector)
+                            .ToArrayAsync();
+    return TypedResults.Ok(randomProducts);
+});
+
 
 app.Run("https://localhost:5503");
 
