@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FruitVegBasket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+543590c3fd1756b46a0bfc3e561aebc58cc2b663")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+eb7aeab3b7b62dc4fc7956cb1611953524017f88")]
 [assembly: System.Reflection.AssemblyProductAttribute("FruitVegBasket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FruitVegBasket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
