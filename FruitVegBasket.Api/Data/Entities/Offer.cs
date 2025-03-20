@@ -40,7 +40,7 @@ namespace FruitVegBasket.Api.Data.Entities
         };
 
         private static string RandomColor => _lightColors.OrderBy(c => Guid.NewGuid()).First();
-        public static IEnumerable<Offer> GetInitialOffers() =>
+        public static IEnumerable<Offer> GetInitialData() =>
             new List<Offer>
         {
             new Offer(1, "Upto 30% off", "Enjoy upto 30% off on all fruits", RandomColor, "Frt30"),

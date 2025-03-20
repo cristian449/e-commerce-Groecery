@@ -48,8 +48,8 @@
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
-
-    <VerticalStackLayout Padding="10, 15">
+    <Grid>
+        <VerticalStackLayout Padding="10, 15">
         <Label>
             <Label.FormattedText>
                 <FormattedString>
@@ -78,7 +78,7 @@
 
         <CollectionView ItemsSource="{Binding Offers}"
                         HeightRequest="180">
-                        
+
             <CollectionView.ItemsLayout>
                 <LinearItemsLayout Orientation="Horizontal"
                                    ItemSpacing="15"/>
@@ -111,10 +111,10 @@
                                        TextColor="White"
                                        Padding="10, 5"/>
 
-                            </Grid> 
+                            </Grid>
                         </Grid>
                     </Border>
-                    
+
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
@@ -171,6 +171,22 @@
         <Label Text="Popular"
                Style="{StaticResource H2}" />
 
-        
-    </VerticalStackLayout>
+
+        </VerticalStackLayout>
+        <Grid IsVisible="{Binding IsBusy}">
+            <BoxView Color="{StaticResource Mid}"/>
+            <VerticalStackLayout HorizontalOptions="Center"
+                                 VerticalOptions="Center">
+                <ActivityIndicator IsRunning="{Binding IsBusy}"
+                                   Color="White"
+                                   HorizontalOptions="Center"/>
+                <Label Text="Fetching Data..."
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       FontSize="18"/>
+            </VerticalStackLayout>
+        </Grid>
+
+    </Grid>
+
 </ContentPage>

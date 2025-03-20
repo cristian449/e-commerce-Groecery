@@ -25,17 +25,30 @@ namespace FruitVegBasket.ViewModels
 
         public ObservableCollection<Offer> Offers { get; set; } = new();
 
+        [ObservableProperty]
+        private bool _isBusy = true;
+
         public async Task InitializeAsync()
         {
-            var offersTask = _offersService.GetActiveOffersAsync();
-            foreach (var category in await _categoryService.GetMainCategoriesAsync())
+            try
             {
-                Categories.Add(category);
+                var offersTask = _offersService.GetActiveOffersAsync();
+                foreach (var category in await _categoryService.GetMainCategoriesAsync())
+                {
+                    Categories.Add(category);
+                }
+                foreach (var offer in await offersTask)
+                {
+                    Offers.Add(offer);
+                }
             }
-            foreach (var offer in await offersTask )
+            finally
             {
-                Offers.Add(offer);
+                _isBusy = false; //Might be incorrect, somehow have to use regular Isbusy = false instead of _isbusy = false 
+                                 //Apparently supposed to generate property for IsBusy, but I dont know how to do that or it doesnt work
+
             }
+
 
         }
 
