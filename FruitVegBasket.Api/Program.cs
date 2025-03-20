@@ -35,13 +35,14 @@ var mastersGroup = app.MapGroup("/masters").AllowAnonymous();
 mastersGroup.MapGet("/categories", async (DataContext context) =>
     await context.Categories
           .AsNoTracking()
-          .ToListAsync()
+          .ToArrayAsync()
 );
 
 app.MapGet("/offers", async (DataContext context) =>
     await context.Offers
           .AsNoTracking()
-          .ToListAsync()
+          .ToArrayAsync()
+          
 );
 
 app.Run("https://localhost:5503");

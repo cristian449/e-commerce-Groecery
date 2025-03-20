@@ -20,4 +20,8 @@
     <ProjectReference Include="..\FruitVegBasket.Shared\FruitVegBasket.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\categories\" />
+  </ItemGroup>
+
 </Project>

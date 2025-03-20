@@ -4,33 +4,22 @@ using FruitVegBasket.Models;
 
 namespace FruitVegBasket.Services
 {
-    public class OffersService
+    public class OffersService : BaseApiService
     {
-        private readonly IHttpClientFactory _httpClientFactory;
+        //private readonly IHttpClientFactory _httpClientFactory;
 
-        public OffersService(IHttpClientFactory httpClientFactory)
+        public OffersService(IHttpClientFactory httpClientFactory) : base(httpClientFactory)
         {
-            _httpClientFactory = httpClientFactory;
+            //_httpClientFactory = httpClientFactory;
         }
 
         public async Task<IEnumerable<Offer>> GetActiveOffersAsync()
         {
-            var httpClient = _httpClientFactory.CreateClient(AppConstants.HttpClientName);
+            //var httpClient = _httpClientFactory.CreateClient(AppConstants.HttpClientName);
 
-            var response = await httpClient.GetAsync("/masters/offers");
-            if (response.IsSuccessStatusCode)
-            {
-                var content = await response.Content.ReadAsStringAsync();
-                if (!string.IsNullOrWhiteSpace(content))
-                {
-                    return JsonSerializer.Deserialize<IEnumerable<Offer>>(content, new JsonSerializerOptions
-                    {
-                        PropertyNameCaseInsensitive = true
-                    });
-                }
-                
-            }
-            return Enumerable.Empty<Offer>();
+            var response = await HttpClient.GetAsync("/masters/offers");
+            return await HandleApiResponseAsync(response, Enumerable.Empty<Offer>());
+            
         }
     }
 }
