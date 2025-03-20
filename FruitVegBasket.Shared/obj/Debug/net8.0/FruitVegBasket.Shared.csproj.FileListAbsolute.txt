@@ -2,6 +2,7 @@ C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\bin\Debug\net8.
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\bin\Debug\net8.0\FruitVegBasket.Shared.runtimeconfig.json
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\bin\Debug\net8.0\FruitVegBasket.Shared.dll
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\bin\Debug\net8.0\FruitVegBasket.Shared.pdb
+C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\obj\Debug\net8.0\FruitVegBasket.Shared.csproj.AssemblyReference.cache
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\obj\Debug\net8.0\FruitVegBasket.Shared.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\obj\Debug\net8.0\FruitVegBasket.Shared.AssemblyInfoInputs.cache
 C:\Users\elenp\Desktop\e-commerce-Groecery\FruitVegBasket.Shared\obj\Debug\net8.0\FruitVegBasket.Shared.AssemblyInfo.cs

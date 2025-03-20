@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[FruitVegBasket.Api.Data.Entities.Category, FruitVegBasket.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "FruitVegBasket.Api.Data.Entities.Category[]",
         "MediaTypes": [
           "application/json"
         ],
@@ -27,7 +27,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[FruitVegBasket.Api.Data.Entities.Offer, FruitVegBasket.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "FruitVegBasket.Api.Data.Entities.Offer[]",
         "MediaTypes": [
           "application/json"
         ],

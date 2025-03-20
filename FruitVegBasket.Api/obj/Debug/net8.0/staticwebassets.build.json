@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "r3/Z7tXfPHMS4mwBfeNCLH5mkQwBC7YOKjS3GGJOlAw=",
+  "Hash": "ACDwECvI4psJpA+9sSdC/XEhtcGMEhjgeH1lUBhw+hs=",
   "Source": "FruitVegBasket.Api",
   "BasePath": "_content/FruitVegBasket.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FruitVegBasket.Api\\wwwroot",
+      "Source": "FruitVegBasket.Api",
+      "ContentRoot": "C:\\Users\\elenp\\Desktop\\e-commerce-Groecery\\FruitVegBasket.Api\\wwwroot\\",
+      "BasePath": "_content/FruitVegBasket.Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }
