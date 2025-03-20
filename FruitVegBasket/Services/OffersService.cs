@@ -23,8 +23,12 @@ namespace FruitVegBasket.Services
                 var content = await response.Content.ReadAsStringAsync();
                 if (!string.IsNullOrWhiteSpace(content))
                 {
-                    return JsonSerializer.Deserialize<IEnumerable<Offer>>(content);
+                    return JsonSerializer.Deserialize<IEnumerable<Offer>>(content, new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    });
                 }
+                
             }
             return Enumerable.Empty<Offer>();
         }

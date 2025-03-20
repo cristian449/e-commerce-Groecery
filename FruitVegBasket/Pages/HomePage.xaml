@@ -6,7 +6,7 @@
              xmlns:vm="clr-namespace:FruitVegBasket.ViewModels"
              xmlns:models="clr-namespace:FruitVegBasket.Models"
              xmlns:controls="clr-namespace:FruitVegBasket.Controls"
-             xmlns:converter="clr-namespace:FruitVegBasket.Converter"
+             xmlns:converters="clr-namespace:FruitVegBasket.Converter"
              x:DataType="vm:HomePageViewModel">
 
     <ContentPage.Resources>
@@ -92,7 +92,7 @@
                             HeightRequest="180"
                             WidthRequest="300">
                         <Grid >
-                            <BoxView Color="{Binding BgColor}" 
+                            <BoxView Color="{Binding BgColor, Converter={StaticResource StringToColor}}" 
                                      Opacity="0.5"/>
                             <Grid RowDefinitions="Auto, *, Auto"
                                   Padding="50">
