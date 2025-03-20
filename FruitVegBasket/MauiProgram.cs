@@ -71,6 +71,7 @@ namespace FruitVegBasket
             builder.Services.AddSingleton<HomePageViewModel>();
             builder.Services.AddSingleton<HomePage>();
             builder.Services.AddSingleton<CartViewModel>();
+            builder.Services.AddSingleton<CartPage>();
 
             builder.Services.AddTransient<OffersService>();
 

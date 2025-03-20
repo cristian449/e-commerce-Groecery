@@ -65,6 +65,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = FruitVegBasket.Pages.Baske
 build_metadata.AdditionalFiles.TargetPath = Pages\BasketPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\BasketPage.xaml
 
+[C:/Users/elenp/Desktop/e-commerce-Groecery/FruitVegBasket/Pages/CartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FruitVegBasket.Pages.CartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CartPage.xaml
+
 [C:/Users/elenp/Desktop/e-commerce-Groecery/FruitVegBasket/Pages/CategoriesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FruitVegBasket.Pages.CategoriesPage.xaml

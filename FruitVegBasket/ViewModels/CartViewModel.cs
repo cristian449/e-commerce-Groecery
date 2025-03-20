@@ -19,9 +19,23 @@ public partial class CartViewModel : ObservableObject
         [ObservableProperty]
         private int _count; //The number of products we have in the cart (Not the quantities of those products)
 
+        [ObservableProperty]
+        private decimal _totalAmount;
+
+        private void RecalculateTotalAmount() => TotalAmount = CartItems.Sum(c => c.Amount);
+
+        private void IncreaseCartItemQuantity(Guid cartItemId)
+        {
+            var item = CartItems.FirstOrDefault(c => c.Id == cartItemId);
+            if(item is not null)
+            {
+                item.Quantity++;
+            }
+        }
+
         //This might be a workaround however i am unsure if this is the correct way to do it, it says that mvvm is automatically
         //Supposed to implement Count as a property but it is not working for me
-       
+
 
 
         //Had to change Everything from Private to Public as it otherwise did not work, maybe will look into it later
@@ -34,6 +48,7 @@ public partial class CartViewModel : ObservableObject
             if (item is not null)
             {
                 item.Quantity++;
+                RecalculateTotalAmount();
             }
             else
             {
@@ -48,6 +63,7 @@ public partial class CartViewModel : ObservableObject
                 CartItems.Add(item);
                 Count = CartItems.Count;
             }
+            RecalculateTotalAmount();
         }
 
         [RelayCommand]
@@ -65,14 +81,20 @@ public partial class CartViewModel : ObservableObject
                 {
                     item.Quantity--;
                 }
+                
             }
+            RecalculateTotalAmount();
         }
 
         public void ClearCart()
         {
             CartItems.Clear();
             Count = 0;
+            RecalculateTotalAmount();
         }
+
+        
+        
     }
 }
 

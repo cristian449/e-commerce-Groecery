@@ -1,4 +1,5 @@
 using System.ComponentModel;
+using FruitVegBasket.Pages;
 
 namespace FruitVegBasket.Controls;
 
@@ -83,8 +84,11 @@ public partial class CartControl : ContentView
         }
     }
 
-    // Add the missing container field
+    // Added the missing container field as it does not work otherwise, probablh broke it but will look into it later
     private View containerView;
-}
 
-//This file happened to be the biggest pain and i was barely able to get it working because of some problem with the containers, but it works now after changing container to Containerview.
+    private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+    {
+       await Shell.Current.GoToAsync(nameof(CartPage));
+    }
+}
