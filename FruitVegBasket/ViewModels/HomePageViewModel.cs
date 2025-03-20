@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using FruitVegBasket.Models;
 using FruitVegBasket.Services;
 using FruitVegBasket.Shared.Dtos;
@@ -60,8 +61,24 @@ namespace FruitVegBasket.ViewModels
             }
 
 
+
+
         }
 
+
+        [RelayCommand]
+        private void AddToCart(int productId) => UpdateCart(productId, 1);
+        [RelayCommand]
+        private void RemoveFromCart(int productId) => UpdateCart(productId, -1);
+
+        private void UpdateCart(int productId, int count)
+        {
+            var product = PopularProducts.FirstOrDefault(p => p.Id == productId);
+            if (product is not null)
+            {
+                product.CartQuantity += count;
+            }
+        }
 
     }
 }

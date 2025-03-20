@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\FruitVegBasket.Api.props" />
-</Project>

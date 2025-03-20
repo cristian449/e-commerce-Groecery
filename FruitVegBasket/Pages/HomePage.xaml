@@ -47,7 +47,7 @@
                 <Setter Property="FontAttributes" Value="Bold" />
                 <Setter Property="Margin" Value="0, 1" />
             </Style>
-            <Style TargetType="Button" x:Key="CartBtn">
+            <!--<Style TargetType="Button" x:Key="CartBtn">
                 <Setter Property="Padding" Value="0"/>
                 <Setter Property="Margin" Value="0"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
@@ -64,7 +64,7 @@
                 <Setter Property="WidthRequest" Value="60"/>
                 <Setter Property="VerticalOptions" Value="Center"/>
                 <Setter Property="HorizontalOptions" Value="Center"/>
-            </Style>
+            </Style>-->
         </ResourceDictionary>
     </ContentPage.Resources>
     <ScrollView>
@@ -191,7 +191,10 @@
                 <Label Text="Popular"
                Style="{StaticResource H2}" />
 
-                <FlexLayout BindableLayout.ItemsSource="{Binding PopularProducts}"
+                <controls:ProductsListControl Products="{Binding PopularProducts}"
+                                               AddRemoveCartClicked="ProductsListControl_AddRemoveCartClicked"/>
+
+                <!--<FlexLayout BindableLayout.ItemsSource="{Binding PopularProducts}"
                     Wrap="Wrap"
                       JustifyContent="SpaceEvenly">
                     
@@ -260,7 +263,7 @@
                                                 <Button Grid.Column="0"
                                                   Text="-"
                                                       Style="{StaticResource CartBtn}"/>                
-                                                <!--Dont have on right now carybutton-->
+                                                --><!--Dont have on right now carybutton--><!--
                                                 <Label  Grid.Column="1" 
                                                     Text="{Binding CartQuantity}"
                                                         VerticalOptions="Center"
@@ -284,7 +287,7 @@
                         </DataTemplate>
                     </BindableLayout.ItemTemplate>
 
-                </FlexLayout>
+                </FlexLayout>-->
 
             </VerticalStackLayout>
             <Grid IsVisible="{Binding IsBusy}">

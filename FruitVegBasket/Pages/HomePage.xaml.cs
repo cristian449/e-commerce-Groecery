@@ -4,11 +4,10 @@ namespace FruitVegBasket.Pages;
 
 public partial class HomePage : ContentPage
 {
-	private readonly HomePageViewModel _viewmodel;
+    private readonly HomePageViewModel _viewmodel;
     public HomePage(HomePageViewModel viewModel)
-	{
-		InitializeComponent();
-		_viewmodel = viewModel;
+    {
+        _viewmodel = viewModel;
         BindingContext = _viewmodel;
     }
 
@@ -16,5 +15,20 @@ public partial class HomePage : ContentPage
     {
         base.OnAppearing();
         await _viewmodel.InitializeAsync();
+    }
+
+    private void ProductsListControl_AddRemoveCartClicked(object sender, Controls.ProductCartItemChangeEventArgs e)
+    {
+
+        //This might be broken, as the viewmodel may not be correctly implemented
+        if (e.Count > 0)
+
+        {
+            _viewmodel.AddToCartCommand.Execute(e.ProductId);
+        }
+        else
+        {
+            _viewmodel.RemoveFromCartCommand.Execute(e.ProductId);
+        }
     }
 }
