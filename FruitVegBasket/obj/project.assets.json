@@ -3284,6 +3284,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -6565,6 +6566,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -9846,6 +9848,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -13127,6 +13130,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -16408,6 +16412,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -19689,6 +19694,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -21007,6 +21013,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -22313,6 +22320,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -23619,6 +23627,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -24925,6 +24934,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -26231,6 +26241,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -27537,6 +27548,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -28855,6 +28867,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -30161,6 +30174,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -31467,6 +31481,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -32773,6 +32788,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -34079,6 +34095,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -35385,6 +35402,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -36934,6 +36952,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -38423,6 +38442,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -39912,6 +39932,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -41401,6 +41422,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -42890,6 +42912,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
@@ -44388,6 +44411,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
           "Microsoft.Extensions.Http": "8.0.0"
         },
         "compile": {
