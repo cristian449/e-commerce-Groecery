@@ -28,7 +28,9 @@ namespace FruitVegBasket.Shared.Dtos
         
 
         [ObservableProperty]
-        private int _cartQuantity;
+        //private int _cartQuantity;
+
+        private int _cartQuantity = Random.Shared.Next(0, 3);
 
         public ProductDto(int id, string name, string image, decimal price, string unit, short categoryId)
         {
